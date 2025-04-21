@@ -4,7 +4,7 @@ import {
   Forklift, 
   Construction, 
   Lightbulb, 
-  Wall 
+  Home 
 } from "lucide-react";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 
@@ -20,7 +20,7 @@ const services = [
     description: "Внутренняя и внешняя отделка помещений любой сложности с использованием современных материалов."
   },
   {
-    icon: <Wall className="h-10 w-10 text-secondary" />,
+    icon: <Home className="h-10 w-10 text-secondary" />,
     title: "Ремонт квартир",
     description: "Косметический, капитальный и дизайнерский ремонт квартир под ключ с гарантией качества."
   },
